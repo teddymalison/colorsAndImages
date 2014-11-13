@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Review</title>
+<meta charset="utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+<style>
+#blockContainer {
+  background-color: #f1ea9b;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.displayTest {
+  background-color:#3e204c;
+  width: 20%;
+  margin: .1em;
+  color: white;
+}
+
+#exercise2 a:hover {
+
+}
+</style>
+</head>
+<body>
+<h1>Review</h1>
+<div id="intro" class="instructions">
+First let's review a few concepts from Tuesday's exercises. We used the "display" property to change how our links displayed and create our tabs. The display property changes how the browser renders an element and its content box on the page. Display has many possible values, but the three that matter to us are:
+<ul>
+	<li>Inline: Displays an element as if it were text. It "flows" with other content, from left to right and down the page, just as text does. You cannot set a width on inline elements, and other box model properties may act strangely. Inline is meant mostly for text.</li>
+	<li>Block: Displays an element as its own content block. By default, the browser displays each block in a seperate horizontal row, like a new paragraph. Blocks do not flow (unless floated). Blocks can have width and all box-model properties set on them. If you want a rectangular container you can use to create a column, a tab, or another two-dimensional page element, you want a block.</li>
+	<li>Inline-Block: Inline-block display creates a block that can ahave width and other box-model properties set on it, but allows this block to be "flowed" like text, taking up available space on the page from left to right before creating a new vertical line when the horizontal space is full.</li>
+</ul>
+Perhaps the best way to see what this means is to try each of these values on the divs below. By default, divs are displayed as blocks. Try setting "display:inline" and "display:inline-block" in the .displayTest section of style element above to see how the divs change. 
+</div>
+<div id="exercise1" class="exercise">
+<div id="blockContainer">
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+<div class="displayTest">
+Test Div
+</div>
+</div>
+</div>
+<div id="instructions2" class="instructions">
+We also used a pseudo-selector on tuesday. Pseudo-selectors allow you to set CSS properties on links, and some other html elements, that are only active when the user performs a certain action. For example, :hover is only active when the user hovers his or her mouse over the link. This is very useful to show the user where active links are on the page, especially when those links are displayed as tabs or other navigation elements. I've created some links below. Add css rules (color, background-color, or anything else you want to try) to the #exercise2 a:hover section above, and then hover your mouse cursor over the links to see what happens!
+</div>
+<div id="exercise2" class="exercise">
+<a href="notreally.html">Test Link</a>
+<br />
+<a href="notreally.html">Test Link</a>
+<br />
+<a href="notreally.html">Test Link</a>
+<br />
+<a href="notreally.html">Test Link</a>
+<br />
+<div>
+</body>
+</html>
